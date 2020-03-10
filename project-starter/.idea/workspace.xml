@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9359f332-ca07-4354-9f4d-0b1dd00a3f04" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1YcsnsnEH3XfBhm2MBaA6Ni9dMs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-project" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="quixada.npi.springproject.SpringProjectApplication" />
+      <module name="project-starter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spring-project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <module name="project-starter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9359f332-ca07-4354-9f4d-0b1dd00a3f04" name="Default Changelist" comment="" />
+      <created>1583253386628</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583253386628</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="410" y="107" width="676" height="710" key="#Unnamed" timestamp="1583254612156">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state x="410" y="107" width="676" height="710" key="#Unnamed/67.27.1373.873@67.27.1373.873" timestamp="1583254612156" />
+    <state x="329" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583255237430">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state x="329" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1373.873@67.27.1373.873" timestamp="1583255237430" />
+    <state x="485" y="248" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583254968310">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state x="485" y="248" width="525" height="428" key="#com.intellij.ide.util.TreeClassChooserDialog/67.27.1373.873@67.27.1373.873" timestamp="1583254968310" />
+    <state x="594" y="354" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583253444587">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state x="594" y="354" width="308" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/67.27.1373.873@67.27.1373.873" timestamp="1583253444587" />
+    <state x="536" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1583255332093">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state x="536" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1373.873@67.27.1373.873" timestamp="1583255332093" />
+    <state width="1327" height="219" key="GridCell.Tab.0.bottom" timestamp="1583255333148">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state width="1327" height="219" key="GridCell.Tab.0.bottom/67.27.1373.873@67.27.1373.873" timestamp="1583255333148" />
+    <state width="1327" height="219" key="GridCell.Tab.0.center" timestamp="1583255333147">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state width="1327" height="219" key="GridCell.Tab.0.center/67.27.1373.873@67.27.1373.873" timestamp="1583255333147" />
+    <state width="1327" height="219" key="GridCell.Tab.0.left" timestamp="1583255333147">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state width="1327" height="219" key="GridCell.Tab.0.left/67.27.1373.873@67.27.1373.873" timestamp="1583255333147" />
+    <state width="1327" height="219" key="GridCell.Tab.0.right" timestamp="1583255333147">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state width="1327" height="219" key="GridCell.Tab.0.right/67.27.1373.873@67.27.1373.873" timestamp="1583255333147" />
+    <state x="236" y="40" width="1024" height="845" key="SettingsEditor" timestamp="1583255217906">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state x="236" y="40" width="1024" height="845" key="SettingsEditor/67.27.1373.873@67.27.1373.873" timestamp="1583255217906" />
+    <state x="416" y="212" width="672" height="678" key="search.everywhere.popup" timestamp="1583254473000">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state x="416" y="212" width="672" height="678" key="search.everywhere.popup/67.27.1373.873@67.27.1373.873" timestamp="1583254473000" />
+  </component>
+</project>
