@@ -16,6 +16,16 @@
                             <v-container fluid>
                                 <v-checkbox id="checkbox" v-model="checked" :label="`Habilitado: ${checked.toString()}`"></v-checkbox>
                             </v-container> 
+                            <v-container fluid>
+                                <v-col class="d-flex" cols="12" sm="6">
+                                    <v-select
+                                    :items="cursos"
+                                    name="curso"
+                                    label="Curso"
+                                    outlined v-model="curso"
+                                    ></v-select>
+                                </v-col>     
+                            </v-container>                          
                         </v-card-text>
                         <v-card-actions>
                             <v-spacer />
@@ -29,8 +39,10 @@
 </template>
 
 <script>
-    import { mapGetters, mapState } from 'vuex'
-    import axios from 'axios'
+    import { mapGetters, mapState } from 'vuex';
+    import axios from 'axios';
+    import {RepositoryFactory} from "@/repositories/RepositoryFactory";
+    const cursoRepo = RepositoryFactory.get("curso");
     export default {
         props: ["to", "invalidToken"],
         data: () => ({
@@ -47,9 +59,13 @@
             emailRules: [ 
                 v => !v || /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(v) || 'E-mail inválido',
                 v => !!v || 'Campo obrigatório'
-            ]
+            ],
+            cursos :[]
         }),
         created() {
+            cursoRepo.getAll().then(res => {
+            this.cursos = res.data;
+            }).catch(console.error);
             if (this.invalidToken) {
                 this.error = 'Sua sessão expirou. Faça login novamente'
             }

@@ -1,12 +1,32 @@
 package quixada.npi.springproject.model;
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
+import java.util.Set;
 
 
 @Entity
 public class Curso {
 
     private static final long serialVersionUID = 1L;
+
+    public Set<Usuario> getAlunos() {
+        return alunos;
+    }
+
+    public void adicionarAluno(Usuario usuario){
+        this.alunos.add(usuario);
+    }
+
+    public void removerAluno(Usuario usuario){
+        this.alunos.remove(usuario);
+    }
+
+    public void setAlunos(Set<Usuario> alunos) {
+        this.alunos = alunos;
+    }
+
+    @OneToMany(mappedBy="curso")
+    private Set<Usuario> alunos;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -41,11 +61,12 @@ public class Curso {
 
     public Curso() {}
 
-    public Curso (Integer id, String nome, String sigla, String turno) {
+    public Curso (Integer id, String nome, String sigla, String turno, Set<Usuario> alunos) {
         this.id = id;
         this.nome = nome;
         this.sigla = sigla;
         this.turno = turno;
+        this.alunos = alunos;
     }
 
     public Integer getId() {

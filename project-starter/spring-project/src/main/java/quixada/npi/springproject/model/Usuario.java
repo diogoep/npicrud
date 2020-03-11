@@ -6,13 +6,22 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotEmpty;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 @Entity
 public class Usuario implements UserDetails {
+
+	public Curso getCurso() {
+		return curso;
+	}
+
+	public void setCurso(Curso curso) {
+		this.curso = curso;
+	}
+
+	@ManyToOne
+	@JoinColumn(name="curso_id", nullable=false)
+	private Curso curso;
 
 	private static final long serialVersionUID = 1L;
 
@@ -35,10 +44,11 @@ public class Usuario implements UserDetails {
 
 	public Usuario() {}
 
-	public Usuario (Integer id, String nome, String email) {
+	public Usuario (Integer id, String nome, String email, Curso curso) {
 		this.id = id;
 		this.nome = nome;
 		this.email = email;
+		this.curso = curso;
 	}
 
 	public Integer getId() {

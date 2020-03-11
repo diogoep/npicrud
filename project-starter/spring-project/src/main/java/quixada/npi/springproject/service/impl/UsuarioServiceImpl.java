@@ -28,17 +28,7 @@ public class UsuarioServiceImpl implements UsuarioService {
 
     @Override
     public Usuario update(String email, Usuario user) {
-        System.out.println(email);
-        System.out.println(user.getNome());
-        System.out.println(user.getEmail());
-        System.out.println(user.getPassword());
-        System.out.println(user.isHabilitado());
         Usuario usuario = usuarioRepository.findByEmail(email);
-        //usuarioRepository.findById(id);
-//        System.out.println(usuario.getNome());
-//        System.out.println(usuario.getEmail());
-//        System.out.println(usuario.getPassword());
-//        System.out.println(usuario.isHabilitado());
         usuario.setPassword(user.getPassword());
         usuario.setEmail(user.getEmail());
         usuario.setHabilitado(user.isHabilitado());
@@ -49,11 +39,6 @@ public class UsuarioServiceImpl implements UsuarioService {
 
     @Override
     public Usuario createUser(Usuario user) {
-        System.out.println(user.getNome());
-        System.out.println(user.getEmail());
-        System.out.println(user.getPassword());
-        System.out.println(user.isHabilitado());
-        //usuarioRepository.createUser(user.getEmail(), user.getNome(), user.isHabilitado(), user.getPassword());
         return usuarioRepository.save(user);
 
     }
