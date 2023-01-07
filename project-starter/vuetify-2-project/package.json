@@ -18,7 +18,7 @@
     "@mdi/font": "^4.9.95",
     "@vue/cli-plugin-router": "^4.2.3",
     "@vue/cli-plugin-vuex": "^4.2.3",
-    "@vue/cli-service": "^4.2.3",
+    "@vue/cli-service": "^5.0.8",
     "sass": "^1.26.2",
     "sass-loader": "^8.0.0",
     "stylus": "^0.54.7",
